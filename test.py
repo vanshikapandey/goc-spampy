@@ -36,7 +36,7 @@ Team CodeCops
 """
         print(f"{index+1}/{len(phones)}")
         driver.get(f"https://web.whatsapp.com/send?phone=91{phone}&text&source&data&app_absent")
-        time.sleep(10)    
+        time.sleep(8)    
         try:
             messageText = driver.find_elements_by_class_name('_3FRCZ')
             if len(messageText)==1:
